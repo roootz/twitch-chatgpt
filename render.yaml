@@ -22,7 +22,7 @@ services:
       - key: TWITCH_USER  # https://dev.twitch.tv/console
         value: "xeustahy"
       - key: TWITCH_AUTH  # https://twitchapps.com/tmi/
-        value: "oauth:lo8z7au5mivmgug70czr67e81avmad"
+        value: "oauth:"
       - key: SEND_USERNAME
         value: "true"
       - key: ENABLE_TTS
