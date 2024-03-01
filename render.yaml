@@ -8,24 +8,24 @@ services:
     startCommand: npm start
     envVars:
       - key: OPENAI_API_KEY
-        value: <your-openai-api-key>
+        value: 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
       - key: CHANNELS
-        value: <your-twitch-channel>
+        value: xulaniec
       - key: GPT_MODE
         value: "CHAT"
       - key: HISTORY_LENGTH
-        value: "3"
+        value: "10"
       - key: MODEL_NAME
         value: "gpt-3.5-turbo"
       - key: COMMAND_NAME
-        value: "chat"
+        value: "eustahy"
       - key: TWITCH_USER  # https://dev.twitch.tv/console
-        value: "oSetinhasBot"
+        value: "xeustahy"
       - key: TWITCH_AUTH  # https://twitchapps.com/tmi/
-        value: "oauth:9wh6ujbu2mro28zhbl8z6z921iuyxz"
+        value: "oauth:lo8z7au5mivmgug70czr67e81avmad"
       - key: SEND_USERNAME
         value: "true"
       - key: ENABLE_TTS
         value: "false"
       - key: ENABLE_CHANNEL_POINTS
-        value: "false"
+        value: "true"
