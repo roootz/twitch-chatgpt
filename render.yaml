@@ -10,7 +10,7 @@ services:
       - key: OPENAI_API_KEY
         value: 
       - key: CHANNELS
-        value: xulaniec
+        value: xulaniec,xzylavein
       - key: GPT_MODE
         value: "CHAT"
       - key: HISTORY_LENGTH
